@@ -1,48 +1,49 @@
-// setup runs once when you hit the play button
-// anything between the {} "happens" or "is executed"
 function setup() {
-//functionName(parameters)  can have zero parameters
-  createCanvas(400, 400); // calling a function
+  createCanvas(600, 600);
 }
 
-// draw happens continuously after setup happens
-// lines happen (are executed) in order
 function draw() {
-  // TODO 1 change the number below. Maybe several times
-  //background(100)
-  // this is a comment
-  // command/control + slash to comment/uncomment
-  // TODO 2a comment out the first background "call" (above)
-  // TODO 2b uncomment the second one (below)
-  //background(220,160)
-  // TODO 3a comment out the second background call
-  // TODO 3b uncomment the third one
-  background(100,150,187); 
-  // what is RGB?
-  // how could we pick colors we want?
-  // https://www.w3schools.com/colors/default.asp
-  rect(10,15,70,90) 
-  // why is it located where it is? 
-  // why is it the size it is?
-  // TODO 4 change the values
-  // Here is the P5 reference for shapes: 
-  // https://p5js.org/reference/#Shape
-  // TODO 5 try square
-  square(100,25,51)
-  // TODO 6 try ellipse
-  ellipse(200,150,86,73)
-  // TODO 7 try circle
-  circle(300,150,76)
-  // TODO 8 try triangle
-  triangle(43,150,112,100,100,157)
-  // why are the shapes white?
-  // why do they have a black border?  
-  // TODO 9 uncomment the following two lines
-  fill(255,255,0)
+  background(253,166,0);
+  
+  fill('white')
   stroke('white')
-  rect(100,200,20,100)
-  rect(120,240,50,20)
-  rect(170,200,20,100)
-  rect(200,200,20,100)
-  // TODO 10 experiment by combining different things
+  circle(50,50,75)
+  circle(25,150,90)
+  circle(75,200,85)
+  circle(25,225,60)
+  circle(75,300,75)
+  circle(50,350,100)
+  rect(0,350,100,300)
+  circle(100,400,100)
+  circle(125,490,100)
+  circle(120,570,100)
+  circle(150,570,100)
+  circle(575,300,70)
+  rect(540,300,70,300)
+  circle(550,340,89)
+  circle(550,400,100)
+  circle(525,450,75)
+  circle(500,500,100)
+  circle(520,570,90)
+  
+  fill('red')
+  stroke('red')
+  circle(300,300,150)
+  rect(225,300,150,200)
+  rect(325,400,50,200)
+  rect(225,400,50,200)
+  
+  fill('black')
+  stroke('black')
+  circle(300,290,90)
+  rect(225,340,150,10)
+  rect(250,375,10,75)
+  rect(340,375,10,75)
+  rect(250,400,100,20)
+  rect(225,490,150,10)
+  
+  fill('blue')
+  stroke('blue')
+  rect(325,550,50,20)
+  rect(225,550,50,20)
 }
